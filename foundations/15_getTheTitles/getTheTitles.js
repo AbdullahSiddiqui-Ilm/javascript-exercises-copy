@@ -1,5 +1,7 @@
 const getTheTitles = function (array) {
-  array.map((book) => book["title"]);
+  key = "title";
+  const titles = array.map((book) => book[key]);
+  return titles;
 };
 
 // Do not edit below this line
